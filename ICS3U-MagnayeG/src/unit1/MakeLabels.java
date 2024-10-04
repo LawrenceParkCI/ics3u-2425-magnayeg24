@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Date: 10/02/2024
- * Description: This is a 
+ * Description: This is a MakeLabels worksheet 
  * @author Gabriel Magnaye
  */
 public class MakeLabels {
@@ -15,9 +15,11 @@ public class MakeLabels {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		//Variables
 		String subject; 
 		String name;
 		
+		//Program
 		System.out.println("Type in the subject and press <Enter>");
 		subject = sc.nextLine();
 		

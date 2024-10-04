@@ -1,13 +1,13 @@
 package unit1;
 
 /**
- *Description:
+ *Description: This is a variables worksheet
  *Date: 09/30/2024
- *@author 
+ *@author Gabriel Magnaye
  */
 public class CreatingVariables {
 	/**
-	 *
+	 *This is the entry point to the program
 	 * @param args unused
 	 */
 	public static void main(String[] args) {

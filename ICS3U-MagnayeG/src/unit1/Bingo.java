@@ -1,7 +1,7 @@
 package unit1;
 /*
- * Description: This program prints my information
- * Date: 09/20/2024
+ * Description: This program prints a bingo card and rules
+ * Date: 09/26/2024
  * @author Gabriel Magnaye
  */
 

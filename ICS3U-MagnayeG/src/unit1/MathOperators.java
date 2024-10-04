@@ -1,12 +1,12 @@
 package unit1;
 /**
  * Date: 10/01/2024
- * Description:
+ * Description: This is a math worksheet
  * @author Gabriel Magnaye
  */
 public class MathOperators {
 	/**
-	 *
+	 *This is the entry point to the program
 	 * @param args unused
 	 */
 	public static void main (String [] args) {

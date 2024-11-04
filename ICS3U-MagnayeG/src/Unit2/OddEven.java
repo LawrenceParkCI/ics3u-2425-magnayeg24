@@ -4,7 +4,7 @@ package Unit2;
 import java.util.Scanner;
 /**
  * Description: This is a program that determines whether an integer is odd or even
- * Date: 10/24/2024
+ * Date: 11/01/2024
  * @author Gabriel Magnaye
  */
 
@@ -25,6 +25,7 @@ public class OddEven {
 		num = sc.nextInt();
 	sc.close();
 	
+		//if the value is zero after mod 2, it is even
 		if (num %2 == 0) {
 			System.out.println("This is an even number");
 		}

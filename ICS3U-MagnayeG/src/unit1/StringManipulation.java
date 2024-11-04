@@ -21,7 +21,7 @@ public class StringManipulation {
 		newSentence =sc.nextLine();
 		sc.close();
 
-		//declaring new variables
+		//declaring new variables based on the initialization of the sentence
 		String upperCase = newSentence.toUpperCase();
 		String lowerCase = newSentence.toLowerCase();
 		char letter = newSentence.charAt(5);

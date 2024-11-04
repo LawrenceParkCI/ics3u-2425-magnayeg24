@@ -1,11 +1,5 @@
 package unit1;
 
-/**
- * Description: This is a receipt printing program
- * Date: 
- * @author Gabriel Magnaye
- */
-
 //Import for scanner
 import java.util.Scanner;
 
@@ -13,14 +7,17 @@ import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
 import java.text.NumberFormat;
 import java.time.LocalDateTime;
+/**
+ * Description: This is a receipt printing program
+ * Date: 10/24/2024
+ * @author Gabriel Magnaye
+ */
 
 public class FinalAssignment {
-	
 	/**
 	 * This is the entry point to the program.
 	 * @param args unused
 	 */
-	
 	public static void main(String[] args) {
 		
 		//Declaring all the variables
@@ -91,6 +88,7 @@ public class FinalAssignment {
 			System.out.format("\n%36s %8s", "Total:", money.format(finalCost));
 			System.out.format("\n%36s %8s", "Rounded to the nearest dollar:", money.format(rndInt));
 			System.out.format("\n%36s %8s", "Rounded to the nearest 5 cents:", money.format(rndFC));
+			System.out.println("Thank you for shopping!");
 			
 	}
 

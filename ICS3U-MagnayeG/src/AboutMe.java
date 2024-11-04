@@ -3,7 +3,7 @@
  * Date: 09/20/2024
  * @author Gabriel Magnaye
  */
-package unit1;
+
 
 
 public class AboutMe {

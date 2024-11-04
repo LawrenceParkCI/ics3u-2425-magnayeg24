@@ -110,7 +110,7 @@ public class UsingMathMethods {
 		
 		
 		//Does your program give a different answer if 0.3333333 is input instead of 0.33 for the power?
-		//
+		//The value when raised to power 0.3333333 is slightly different while everything else is the same
 		
 		
 		

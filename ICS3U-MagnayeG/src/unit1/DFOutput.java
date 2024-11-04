@@ -24,7 +24,7 @@ public class DFOutput {
 		
 		final double TAX_RATE = 0.13;
 		DecimalFormat money = new DecimalFormat("$#,###,##0.00");
-		DecimalFormat percent = new DecimalFormat("0.##%");
+		DecimalFormat percent = new DecimalFormat("#00.#%");
 
 		double cost;
 		System.out.print("Please enter the cost of an item then press <Enter>: $");
@@ -69,7 +69,7 @@ public class DFOutput {
 		
 		//Change the above print statement to format the TAX_RATE using the percent DecimalFormat instance.
 		//Run the program again with any cost, how is the TAX_RATE displayed differently?
-
+		//The value is now displayed as a percentage
 
 		sc.close();
 	}

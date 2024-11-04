@@ -75,15 +75,14 @@ public class Commenting {
     num2 /= 2.5; //num2 is now stored as -6.4
     num1 /= 2; //num1 is now stored as 26
     stringNum = stringNum + "; "; //stringNum is now stored as 52 -16.0
-    stringNum = stringNum + num1 + " " + num2; //stringNum is now stored as 
-System.out.println(stringNum);
+    stringNum = stringNum + num1 + " " + num2; //stringNum is now stored as 52 -16.0; 26 -6.4
 
     /*
     * Variables Name    |   Value
     * ---------------------------------
-    * num1              |
-    * num2              |
-    * stringNum         |
+    * num1              |26
+    * num2              |-6.4
+    * stringNum         |52 -16.0; 26 -6.4
     */
   }
 }

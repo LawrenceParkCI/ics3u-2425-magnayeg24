@@ -53,6 +53,6 @@ public class Casting3 {
     double myNum2 = Double.parseDouble(strNum);
     System.out.println(myNum2);
     //When do you think it might be necessary to change a string value into an integer value/double value?
-    //
+    //Changing a string into an integer or double could be helpful for calculations in coding
   }
 }

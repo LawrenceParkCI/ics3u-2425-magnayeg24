@@ -1,7 +1,6 @@
 package unit1;
 
 import java.util.Scanner;
-
 /**
  * Date: 10/07/2024
  * Description: Calculates the cost to carpet a room

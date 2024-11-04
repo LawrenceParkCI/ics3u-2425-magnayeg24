@@ -3,7 +3,7 @@ package Unit2;
 //Import for scanner
 import java.util.Scanner;
 /**
- * Description: This is a program that determines whether an integer is positive or negative
+ * Description: This is a program that determines whether an integer is positive or negative and is divisible by 7
  * Date: 11/01/2024
  * @author Gabriel Magnaye
  */

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Description: This is an if challenge worksheet
- * Date: 11/05/2024
+ * Date: 11/11/2024
  * @author Gabriel Magnaye
  */
 

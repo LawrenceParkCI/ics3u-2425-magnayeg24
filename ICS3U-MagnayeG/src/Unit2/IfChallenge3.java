@@ -157,10 +157,3 @@ public class IfChallenge3 {
 
 
 }	
-
-
-
-
-
-
- 

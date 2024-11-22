@@ -18,6 +18,8 @@ public class While {
    while (numPeople > 0) {
 
      //Why do you think the variable is declared here?
+	 //Because it is only used in the while.
+	   
      System.out.println(name);
 
      numPeople = numPeople - 1;

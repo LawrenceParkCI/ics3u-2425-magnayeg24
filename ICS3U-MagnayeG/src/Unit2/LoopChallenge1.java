@@ -3,9 +3,9 @@ package Unit2;
 import java.util.Scanner;
 
 /**
-Description:
-Date:
-@author
+Description: This is a loop challenge worksheet
+Date: 11/22/2024
+@author Gabriel Magnaye
  */
 public class LoopChallenge1 {
 	public static void main(String[] args) {
@@ -22,20 +22,24 @@ public class LoopChallenge1 {
 		int tries = 3;
 		String password;
 
+		//Collect User input
+
 		do {
 			Scanner in = new Scanner(System.in);
 			System.out.println("What is the password?");
 			password = in.nextLine();
 
 			tries = tries - 1;
-			
+
+			//Displays test based on whether the password was correct or not
+
 			if (password.equalsIgnoreCase("password")) {
 				System.out.println("CORRECT! Welcome in Mr. President!");
 				tries = 0;
 			}
 			else if (tries >= 1) {
 				System.out.println("INCORRECT! Please try again"); 
-				
+
 			}
 			if (tries == 0)  {
 				System.out.println("INCORRECT! Please try again later");

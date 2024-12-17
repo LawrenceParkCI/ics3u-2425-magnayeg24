@@ -27,7 +27,7 @@ public class MethodChallenge1 {
     * @param y1 The y-coordinate of the first point.
     * @param x2 The x-coordinate of the second point.
     * @param y2 The y-coordinate of the second point.
-    * @return The Euclidean distance between the two points.
+    * @return The distance between the two points.
     */
    public static double distance(int x1, int y1, int x2, int y2) {
        // Calculate the difference in x and y coordinates

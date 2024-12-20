@@ -1,5 +1,7 @@
 package Unit3;
 
+import java.util.ArrayList;
+
 /**
 Description: This is a methods worksheet
 Date: 12/17/2024
@@ -8,7 +10,7 @@ Date: 12/17/2024
 
 public class MathPlusClassMethods {
 
-	public static void main(String[] args) {	       
+	public static void main(String[] args) {
 
 	}
 	//Distance Method
@@ -97,4 +99,160 @@ public class MathPlusClassMethods {
 		return prime;
 	}
 
+	//Int sum
+
+	/**
+	 * This method calculate the sum of all the numbers in an array
+	 * @param sum The sum of all values in an array
+	 * @param ar1 The array that holds the values we are calculating
+	 * @return The sum of all the values
+	 */
+
+	public static int sum(int[] ar1){
+
+
+		int sum = 0;
+
+		for(int i = 0;i<ar1.length;i++) {
+			sum += ar1[i];
+		}
+
+		return sum;
+	}
+	//Double sum
+
+	/**
+	 * This method calculate the sum of all the numbers in an array
+	 * @param sum2 The sum of all the values
+	 * @param ar2  The array that holds all the values
+	 * @return The sum of all the values
+	 */
+
+	public static double sum2(double[] ar2){
+
+
+		double sum2 = 0;
+
+		for(int I = 0;I<ar2.length;I++) {
+			sum2 += ar2[I];
+		}
+
+		return sum2;
+	}
+	// int min
+
+	/**
+	 * This method finds the index of the smallest value in an array
+	 * @param min The index of the smallest value 
+	 * @return The index of the smallest value
+	 */
+
+	public static int min(int[] ar1) {
+
+		int min = 0;
+
+		for (int i = 1; i < ar1.length; i++) {
+			if (ar1[i] < ar1[min]) {
+				min = i;
+			}
+		}
+
+		return min;
+	}
+
+
+	// double min
+
+	/**
+	 * This method finds the index of the smallest value in an array
+	 * @param min The index of the smallest value 
+	 * @return The index of the smallest value
+	 */
+
+	public static int min(double[] ar2) {
+
+		int min = 0;
+
+		for (int i = 1; i < ar2.length; i++) {
+			if (ar2[i] < ar2[min]) {
+				min = i;
+
+			}
+		}
+		return min;
+	}
+	// int max
+
+	/**
+	 * This method finds the index of the largest value in an array
+	 * @param max The index of the largest value 
+	 * @return The index of the largest value
+	 */
+
+
+	public static int max(int[] ar1) {
+
+		int max = 0;
+
+		for (int i = 1; i < ar1.length; i++) {
+			if (ar1[i] > ar1[max]) {
+				max = i;
+			}
+		}
+
+		return max;
+
+	}	
+	// double max
+
+	/**
+	 * This method finds the index of the largest value in an array
+	 * @param max The index of the largest value 
+	 * @return The index of the largest value
+	 */
+
+
+	public static int max(double[] ar1) {
+
+		int max = 0;
+
+		for (int i = 1; i < ar1.length; i++) {
+			if (ar1[i] > ar1[max]) {
+				max = i;
+			}
+		}
+
+		return max;
+	} 
+
+	//factors
+
+	/**
+	 * This method finds the factors of a number and returns it in an array
+	 * @param factorList  An array containing every factor for a number
+	 * @param c  Counter variable
+	 * @param n  Number used for calculating factors
+	 * @param i  Counter variable
+	 * @return An array containing every factor of a number
+	 */
+
+	public static int[] factors(int n) {
+
+		int[] factorList = new int[numOfFactors(n)];
+
+		int c = 0;
+		for (int i = 1; i <= n; i++) {
+			if (n % i == 0) { 
+				factorList[c] = i;
+				c++;
+
+			}
+		}
+
+		return factorList;  
+
+
+	}
 }
+
+

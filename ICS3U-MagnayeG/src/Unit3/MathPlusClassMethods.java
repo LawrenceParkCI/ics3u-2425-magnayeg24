@@ -224,6 +224,35 @@ public class MathPlusClassMethods {
 
 		return max;
 	} 
+	// Int bigDifference
+
+		/**
+		 * This method finds the range of values in an array
+		 * @param max Largest value in an array
+		 * @param min Smallest value in an array
+		 * @return Difference between the largest and smallest value
+		 */
+	
+	public static int bigDifference(int[] ar1) {
+	
+	int dif = max(ar1) - min(ar1);
+	
+	return dif; }
+	
+	// Double bigDifference
+
+			/**
+			 * This method finds the range of values in an array
+			 * @param max Largest value in an array
+			 * @param min Smallest value in an array
+			 * @return Difference between the largest and smallest value
+			 */
+		
+		public static double bigDifference(double[] ar2) {
+		
+		int dif = max(ar2) - min(ar2);
+		
+		return dif; }
 
 	//factors
 
